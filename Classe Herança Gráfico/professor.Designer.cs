@@ -101,9 +101,9 @@
             // 
             // btnexibir
             // 
-            this.btnexibir.Location = new System.Drawing.Point(205, 220);
+            this.btnexibir.Location = new System.Drawing.Point(205, 244);
             this.btnexibir.Name = "btnexibir";
-            this.btnexibir.Size = new System.Drawing.Size(146, 87);
+            this.btnexibir.Size = new System.Drawing.Size(146, 39);
             this.btnexibir.TabIndex = 7;
             this.btnexibir.Text = "Exibir";
             this.btnexibir.UseVisualStyleBackColor = true;

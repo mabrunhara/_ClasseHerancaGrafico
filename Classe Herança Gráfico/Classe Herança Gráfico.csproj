@@ -52,6 +52,7 @@
     <Compile Include="aluno.Designer.cs">
       <DependentUpon>aluno.cs</DependentUpon>
     </Compile>
+    <Compile Include="Estudante.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
