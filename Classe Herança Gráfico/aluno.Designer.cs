@@ -52,9 +52,9 @@
             // btnexibir
             // 
             this.btnexibir.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnexibir.Location = new System.Drawing.Point(235, 248);
+            this.btnexibir.Location = new System.Drawing.Point(235, 220);
             this.btnexibir.Name = "btnexibir";
-            this.btnexibir.Size = new System.Drawing.Size(98, 39);
+            this.btnexibir.Size = new System.Drawing.Size(102, 67);
             this.btnexibir.TabIndex = 16;
             this.btnexibir.Text = "Exibir";
             this.btnexibir.UseVisualStyleBackColor = true;
