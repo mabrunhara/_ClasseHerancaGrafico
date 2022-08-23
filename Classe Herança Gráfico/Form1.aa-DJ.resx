@@ -121,11 +121,20 @@
   <data name="menuStrip1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt</value>
   </data>
-  <data name="cadastrarUsuárioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 22</value>
+  <data name="testeToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="testeToolStripMenuItem1.Text" xml:space="preserve">
+    <value>teste</value>
   </data>
   <data name="cadastrarUsuárioToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 22</value>
+  </data>
+  <data name="testeToolStripMenuItem.Text" xml:space="preserve">
+    <value>teste</value>
+  </data>
+  <data name="btncadprof.Text" xml:space="preserve">
+    <value>Cadastrar Professor</value>
   </data>
   <data name="sairToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 22</value>

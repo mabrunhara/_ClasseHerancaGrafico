@@ -31,9 +31,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtnome = new System.Windows.Forms.TextBox();
+            this.txtidade = new System.Windows.Forms.TextBox();
+            this.txttitulacao = new System.Windows.Forms.TextBox();
             this.btncalcular = new System.Windows.Forms.Button();
             this.btnexibir = new System.Windows.Forms.Button();
             this.btnvoltar = new System.Windows.Forms.Button();
@@ -69,26 +69,26 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Titulação";
             // 
-            // textBox1
+            // txtnome
             // 
-            this.textBox1.Location = new System.Drawing.Point(113, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(285, 26);
-            this.textBox1.TabIndex = 3;
+            this.txtnome.Location = new System.Drawing.Point(113, 42);
+            this.txtnome.Name = "txtnome";
+            this.txtnome.Size = new System.Drawing.Size(285, 26);
+            this.txtnome.TabIndex = 3;
             // 
-            // textBox2
+            // txtidade
             // 
-            this.textBox2.Location = new System.Drawing.Point(113, 90);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(285, 26);
-            this.textBox2.TabIndex = 4;
+            this.txtidade.Location = new System.Drawing.Point(113, 90);
+            this.txtidade.Name = "txtidade";
+            this.txtidade.Size = new System.Drawing.Size(285, 26);
+            this.txtidade.TabIndex = 4;
             // 
-            // textBox3
+            // txttitulacao
             // 
-            this.textBox3.Location = new System.Drawing.Point(113, 141);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(285, 26);
-            this.textBox3.TabIndex = 5;
+            this.txttitulacao.Location = new System.Drawing.Point(113, 141);
+            this.txttitulacao.Name = "txttitulacao";
+            this.txttitulacao.Size = new System.Drawing.Size(285, 26);
+            this.txttitulacao.TabIndex = 5;
             // 
             // btncalcular
             // 
@@ -98,6 +98,7 @@
             this.btncalcular.TabIndex = 6;
             this.btncalcular.Text = "Cadastrar";
             this.btncalcular.UseVisualStyleBackColor = true;
+            this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
             // 
             // btnexibir
             // 
@@ -107,6 +108,7 @@
             this.btnexibir.TabIndex = 7;
             this.btnexibir.Text = "Exibir";
             this.btnexibir.UseVisualStyleBackColor = true;
+            this.btnexibir.Click += new System.EventHandler(this.btnexibir_Click);
             // 
             // btnvoltar
             // 
@@ -116,6 +118,7 @@
             this.btnvoltar.TabIndex = 8;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
             // frmprofessor
             // 
@@ -125,9 +128,9 @@
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnexibir);
             this.Controls.Add(this.btncalcular);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txttitulacao);
+            this.Controls.Add(this.txtidade);
+            this.Controls.Add(this.txtnome);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -145,9 +148,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtnome;
+        private System.Windows.Forms.TextBox txtidade;
+        private System.Windows.Forms.TextBox txttitulacao;
         private System.Windows.Forms.Button btncalcular;
         private System.Windows.Forms.Button btnexibir;
         private System.Windows.Forms.Button btnvoltar;

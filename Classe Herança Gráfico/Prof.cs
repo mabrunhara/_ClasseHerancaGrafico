@@ -29,7 +29,7 @@ namespace Classe_Herança_Gráfico
         public override string ImprimeDados()
         {
             String s = String.Empty;
-            s = String.Concat(this.Nome, "", this.Idade.ToString(), "", this.Titulacao);
+            s = String.Concat(this.Nome, " ", this.Idade.ToString(), " ", this.Titulacao);
             return s;
                 
         }

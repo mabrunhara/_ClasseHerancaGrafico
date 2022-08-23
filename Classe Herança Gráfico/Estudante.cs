@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classe_Herança_Gráfico
 {
-    public class Estudante : Pessoa 
+    public class Estudante : Pessoa
     {
         private string curso;
         public Estudante()
@@ -21,6 +21,12 @@ namespace Classe_Herança_Gráfico
         }
 
         public string Curso { get; set; }
-        
+        public override string ImprimeDados()
+        {
+            String s = String.Empty; 
+            s = String.Concat(this.Nome, " ", this.Idade.ToString(), " ", this.Curso);
+            return s; 
+
+        }
     }
 }
