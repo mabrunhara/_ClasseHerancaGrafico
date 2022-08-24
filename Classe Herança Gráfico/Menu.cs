@@ -10,35 +10,30 @@ using System.Windows.Forms;
 
 namespace Classe_Herança_Gráfico
 {
-    public partial class menu : Form
+    public partial class Menu : Form
     {
-        public menu()
+        public Menu()
         {
             InitializeComponent();
         }
 
-        private void cadastrarUsuárioToolStripMenuItem_Click(object sender, EventArgs e)
+        private void cadastrarAlunoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmaluno menu = new frmaluno();
+            menu.Show();
+        }
+
+        private void cadastrarProfessorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
             frmprofessor professor = new frmprofessor();
             professor.Show();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void cadastrarUsuárioToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            frmaluno menu = new frmaluno ();
-            menu.Show();
         }
     }
 }

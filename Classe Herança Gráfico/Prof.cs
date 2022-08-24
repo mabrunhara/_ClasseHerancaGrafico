@@ -21,11 +21,7 @@ namespace Classe_Herança_Gráfico
             this.Titulacao = titulacao;
 
         }
-        public string Titulacao
-        {
-            get { return this.Titulacao; }  
-            set { this.Titulacao = value; }
-        }
+        public string Titulacao { get; set; }
         public override string ImprimeDados()
         {
             String s = String.Empty;

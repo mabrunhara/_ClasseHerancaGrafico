@@ -34,7 +34,7 @@ namespace Classe_Herança_Gráfico
         private void btnvoltar_Click(object sender, EventArgs e)
         {
             this.Hide();
-            menu principal = new menu();
+            Menu principal = new Menu();
             principal.Show();
         }
     }
